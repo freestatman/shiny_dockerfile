@@ -1,5 +1,3 @@
-
-
 if (TRUE) {
     install.packages("devtools", repos='http://cran.rstudio.com')
 
@@ -22,16 +20,12 @@ if (TRUE) {
     pkg_2inst <- c("rtf", "sas7bdat", "WriteXLS", "SASxport", "rJava") # rJava needs more effort to install
     sapply(pkg_2inst, install.packages)
  
-    devtools::install_github("timelyportfolio/sweetalertR")   
-    
     # Bioc packages: 'DESeq2', 'limma', # RNAseq
     # source("https://bioconductor.org/biocLite.R")
     # biocLite("biomaRt", suppressUpdates=TRUE)
     # biocLite("DESeq2", suppressUpdates=TRUE)
     # biocLite("limma", suppressUpdates=TRUE)
 }
-
-
 
 if (TRUE)  {     # new package
     install.packages('summarytools')
@@ -43,8 +37,7 @@ if (TRUE)  {     # new package
     install.packages('networkD3')
     install.packages('heatmaply')
     install.packages('shinyWidgets')
- 
-}    # End  
+ }    # End  
 
 if (TRUE)  {     # biocond
     source("https://bioconductor.org/biocLite.R")
