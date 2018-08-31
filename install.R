@@ -37,6 +37,13 @@ if (TRUE)  {     # new package
     install.packages('summarytools')
     install.packages('shinyWidgets')
     install.packages('janitor')
+    install.packages('RColorBrewer')
+    install.packages('glue')
+    install.packages('shinydashboardPlus')
+    install.packages('networkD3')
+    install.packages('heatmaply')
+    install.packages('shinyWidgets')
+ 
 }    # End  
 
 if (TRUE)  {     # biocond
